@@ -1,0 +1,75 @@
+html{
+    overflow-x:hidden;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body{
+    height:100vh;
+}
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-size: 16px;
+    font-family: sans-serif;
+    overflow-x:hidden; 
+  }
+
+ .offset:before{
+     display: block;
+     content: "";
+     height: 4rem;
+     margin-top: -4rem;
+ }
+ /* for navigation */
+ 
+.navbar{
+     text-transform: uppercase;
+     font-weight:500;
+     font-size:1rem;
+     letter-spacing:.1rem;
+     background:rgba(0,0,0,0.8)!important;
+
+ }
+
+ /*.navbar-brand img{
+height:2rem;
+ }*/
+ .navbar-nav li a{
+      text-align:center;
+ }
+ .navbar-dark .navbar-nav .nav-link{
+     color:white;
+     padding:15px;
+ }
+ .navbar-dark .navbar-nav .nav-link:hover{
+color: #1ebba3;
+}
+.sign-in-div{
+    display:flex;
+    justify-content:space-between;
+    color:white;
+    font-size:1.5rem;
+    cursor:pointer;
+    padding-right:1rem;
+}
+#mynav a.sign-link{
+    text-decoration:none;
+    display:block;
+}
+.sign-text{
+    padding-right:1rem;
+}
+#mynav a.sport-link{
+    margin-right:3vw;
+}
+@media only screen and (max-width: 720px){
+.navbar-dark .navbar-nav .nav-link {
+    border-top: 1px solid #f2f2f2;
+}
+#mynav .sport-link{
+    display:none;
+}
+}
